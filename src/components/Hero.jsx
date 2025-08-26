@@ -143,6 +143,7 @@ const Hero = () => {
               <button 
                 className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 transform hover:-translate-y-2 hover:scale-105"
                 onClick={scrollToContact}
+                id="contact"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Connect with Me
