@@ -6,8 +6,8 @@ import Type from "./Type";
 
 const socialMediaLinks = [
   "https://www.instagram.com/_aaaryaan__/",
-  "https://github.com/aryyan0701",
-  "https://www.linkedin.com/in/aryan-kadam-568083204/",
+  "https://github.com/padmappiriyan",
+  "https://www.linkedin.com/in/selvakumar-padmappiriyan-6b9901267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 ];
 
 const Hero = () => {

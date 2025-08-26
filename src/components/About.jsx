@@ -22,7 +22,7 @@ const About = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          // Animate counters
+          
           info.forEach((item) => {
             let current = 0;
             const increment = item.count / 50;
