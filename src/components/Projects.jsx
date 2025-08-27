@@ -157,13 +157,7 @@ const ProjectsPage = () => {
                     hoveredProject === project.id ? 'opacity-100' : 'opacity-0'
                   }`}>
                     <div className="flex gap-4">
-                      <a
-                        href={project.liveUrl}
-                        className="flex items-center gap-2 px-6 py-3 bg-white/90 text-gray-900 rounded-lg font-semibold hover:bg-white transition-colors transform hover:scale-105"
-                      >
-                        <Eye size={18} />
-                        View Live
-                      </a>
+                     
                       <a
                         href={project.githubUrl}
                         className="flex items-center gap-2 px-6 py-3 bg-gray-900/90 text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors transform hover:scale-105"
@@ -276,13 +270,7 @@ const ProjectsPage = () => {
                 </div>
 
                 <div className="flex gap-3">
-                  <a
-                    href={project.liveUrl}
-                    className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-cyan-400 to-blue-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-400/25 transition-all duration-300 transform hover:-translate-y-1"
-                  >
-                    <ExternalLink size={16} />
-                    Live Demo
-                  </a>
+                  
                   <a
                     href={project.githubUrl}
                     className="flex items-center justify-center gap-2 px-4 py-3 border border-gray-600 text-gray-300 rounded-lg hover:border-cyan-400 hover:text-cyan-400 hover:shadow-lg hover:shadow-cyan-400/10 transition-all duration-300 transform hover:-translate-y-1"
