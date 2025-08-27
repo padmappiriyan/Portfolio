@@ -128,10 +128,7 @@ const Contact = () => {
     setSubmitStatus("");
 
     try {
-      console.log(formData.name);
-      console.log(formData.email);
-      console.log(formData.subject);
-      console.log(formData.message);
+      
       await emailjs.send(
         service_id,     
         template_id,    
