@@ -154,7 +154,7 @@ const Contact = () => {
     }
   }
   return (
-    <section ref={sectionRef} id="contact" className="relative py-20">
+    <section ref={sectionRef} id="contacts" className="relative py-20">
       <div className="relative z-10 container mx-auto px-6">
         
         <div

@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ExternalLink, Github, Eye, Filter, Code, Palette, Smartphone, Globe } from 'lucide-react';
 import Home from "../assets/images/Home-estate.png";
+import Portfolio from "../assets/images/porfolio.png"
+import D_frame from "../assets/images/3D_Frame.png"
+import Commerce from "../assets/images/e-commerce.webp"
+
 
 const ProjectsPage = () => {
   const [filter, setFilter] = useState('all');
@@ -13,7 +17,7 @@ const ProjectsPage = () => {
       id: 1,
       title: "E-Commerce Platform Custom 3D frame design webapplication",
       description: "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      image: D_frame,
       category: "web",
       technologies: ["Next js", "Express.js", "MongoDB", "Stripe"],
       liveUrl: "#",
@@ -26,42 +30,32 @@ const ProjectsPage = () => {
       description: "A real estate web app for listing, searching, and managing properties with user authentication, Google login, Cloudinary image hosting, JWT security, and a responsive React (Vite + Redux) frontend with a Node.js/Express backend.",
       image: Home,
       category: "web",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
+      technologies: ["React", "Firebase", "Tailwind CSS","Redux", "Cloudinary"],
       liveUrl: "#",
       githubUrl: "https://github.com/padmappiriyan/home-estate.git",
       featured: true
     },
-    {
-      id: 3,
-      title: "Mobile Banking App",
-      description: "A secure mobile banking application with biometric authentication, transaction history, and budget tracking capabilities.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
-      category: "mobile",
-      technologies: ["React Native", "Redux", "Node.js"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
+   
     {
       id: 4,
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing creative work with smooth animations and interactive elements.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      category: "design",
-      technologies: ["HTML", "CSS", "JavaScript", "GSAP"],
+      image: Portfolio,
+      category: "web",
+      technologies: ["REACT JS", "TAILWIND CSS", "EMAILJS"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/padmappiriyan/Portfolio.git",
       featured: false
     },
     {
       id: 5,
       title: "eGov",
-      description: "Real-time weather dashboard with location-based forecasts, interactive maps, and weather alerts.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      category: "web",
-      technologies: ["Vue.js", "Weather API", "Chart.js"],
+      description: "E-Government service platform allowing citizens to submit online requests for warrants and salary particulars efficiently, with real-time status tracking and secure document handling.",
+      image: Commerce,
+      category: "mobile",
+      technologies: ["React Native", "Fast API", "Mongo DB"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/padmappiriyan/Hackstreet-Boys_eGovDoc.git",
       featured: true
     },
   ];
@@ -311,7 +305,7 @@ const ProjectsPage = () => {
               Let's collaborate and create something amazing together. I'm always excited about new projects!
             </p>
             <a
-              href="#contact"
+              href="#contacts"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-cyan-400 to-blue-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-cyan-400/25 transition-all duration-300 hover:-translate-y-1"
             >
               <Eye size={18} className="mr-2" />
