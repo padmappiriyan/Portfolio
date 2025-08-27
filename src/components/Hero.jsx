@@ -138,10 +138,11 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start mb-12">
+              <a href="#contacts">
               <button
-                className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 transform hover:-translate-y-2 hover:scale-105"
+                className="group relative cursor-pointer px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 transform hover:-translate-y-2 hover:scale-105"
                 onClick={scrollToContact}
-                id="contact"
+                
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Connect with Me
@@ -150,6 +151,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 animate-pulse"></div>
               </button>
+              </a>
               <a href="/CV-224141K.pdf" download>
                 <button className="group flex items-center gap-2 px-8 py-4 border-2 border-cyan-500/50 text-cyan-400 font-semibold rounded-full hover:bg-cyan-500 hover:text-black hover:border-cyan-500 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg hover:shadow-cyan-500/25 backdrop-blur-sm cursor-pointer">
                   <FaDownload className="group-hover:animate-bounce" />
