@@ -44,26 +44,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/padmappiriyan",
       color: "hover:text-gray-300"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/selvakumar-padmappiriyan-6b9901267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       color: "hover:text-blue-400"
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com/yourusername",
-      color: "hover:text-cyan-400"
-    },
-    {
-      icon: MessageCircle,
-      label: "Discord",
-      href: "#",
-      color: "hover:text-indigo-400"
     }
   ];
 
@@ -89,7 +77,7 @@ const Contact = () => {
     };
   }, []);
 
-  // Input handler
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -99,7 +87,7 @@ const Contact = () => {
     setErrors(prev => ({ ...prev, [name]: "" })); 
   };
 
-  // Validation logic
+ 
   const validateForm = () => {
     let newErrors = {};
 
@@ -126,7 +114,7 @@ const Contact = () => {
     return newErrors;
   };
 
-  // Submit handler
+
    const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validateForm();

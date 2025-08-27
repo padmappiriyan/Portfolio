@@ -5,7 +5,7 @@ import my2 from "../assets/images/Profile.jpg";
 import Type from "./Type";
 
 const socialMediaLinks = [
-  "https://www.instagram.com/_aaaryaan__/",
+  "https://www.instagram.com/selvakumar_padmappiriyan?utm_source=qr&igsh=MTZ5aTF5OTlveTRweA==",
   "https://github.com/padmappiriyan",
   "https://www.linkedin.com/in/selvakumar-padmappiriyan-6b9901267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 ];
